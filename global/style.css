@@ -1,0 +1,15 @@
+.back-home {
+  position: fixed;
+  text-decoration: none;
+  color: rgb(43, 172, 11);
+  background: rgba(180, 138, 103, 0.4);
+  font-size: 3rem;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.back-home:hover {
+  background: rgba(180, 138, 103, 1);
+  color: rgb(15, 250, 15);
+}
