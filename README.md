@@ -9,3 +9,7 @@ Starter Files + Completed solutions for the JavaScript 30 Day Challenge. can be 
 Grab the course at [JavaScript30.com](https://JavaScript30.com)
 
 My Name is **_[Mugilan](https://github.com/Mugilan-Codes 'My Github Profile')_** and i am Starting this challenge on _18th May, 2020 (Monday)_
+
+## Resource
+
+1. [CSS Reset](https://alligator.io/css/minimal-css-reset/)
