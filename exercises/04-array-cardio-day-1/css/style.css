@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background: url(../images/background.jpg) center center;
+  background-size: cover;
+}
+
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center p {
+  font-size: 3rem;
+  color: rgba(101, 57, 182, 0.637);
+}
