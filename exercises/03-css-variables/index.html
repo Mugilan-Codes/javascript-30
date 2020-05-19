@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../../global//reset.css" />
+
+    <link rel="stylesheet" href="../../global/style.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>CSS Variables</title>
+
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- todo - Change to Flex Box -->
+
+    <a class="back-home" href="../../index.html">Back to Home</a>
+
+    <div class="wrapper">
+      <h2>Update CSS Variables with <span class="hl">JS</span></h2>
+
+      <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input
+          type="range"
+          name="spacing"
+          id="spacing"
+          min="10"
+          max="100"
+          value="10"
+          data-sizing="px"
+        />
+
+        <label for="blur">Blur:</label>
+        <input
+          type="range"
+          name="blur"
+          id="blur"
+          min="0"
+          max="25"
+          value="10"
+          data-sizing="px"
+        />
+
+        <label for="base">Base Color:</label>
+        <input type="color" name="base" id="base" value="#ffc600" />
+      </div>
+
+      <div class="controls">
+        <label for="width">Width:</label>
+        <input
+          type="range"
+          name="width"
+          id="width"
+          min="400"
+          max="800"
+          value="400"
+          data-sizing="px"
+        />
+
+        <label for="border">Border Radius:</label>
+        <input
+          type="range"
+          name="border"
+          id="border"
+          min="0"
+          max="50"
+          value="0"
+          data-sizing="%"
+        />
+      </div>
+
+      <img
+        id="image"
+        src="images/background.jpg"
+        alt="Image to Perform Actions on"
+      />
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
