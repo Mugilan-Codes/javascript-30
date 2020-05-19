@@ -1,8 +1,7 @@
 html {
   font-size: 10px;
-  background: url(../images/background.jpg) center center no-repeat;
+  background: #122529 url(../images/background.jpg) center center no-repeat;
   background-size: cover;
-  back
 }
 
 body,
@@ -42,4 +41,12 @@ html {
   position: absolute;
   top: 50%;
   border-radius: 5px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.07s;
+  transition-timing-function: cubic-bezier(0, 2, 1, 1);
+}
+
+.no-transition {
+  transition: none;
 }
