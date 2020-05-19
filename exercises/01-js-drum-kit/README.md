@@ -1,3 +1,3 @@
 # 01 - JavaScript Drum Kit
 
-## <a href='../../'>Main Page</a>
+## <a href='https://github.com/Mugilan-Codes/javascript-30'>Main Page</a>
