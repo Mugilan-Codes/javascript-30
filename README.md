@@ -54,31 +54,31 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [3]: exercises/03-css-variables/README.md 'README'
 [4]: exercises/04-array-cardio-day-1/README.md 'README'
 [5]: #
-[6]: 'README'
-[7]: 'README'
-[8]: 'README'
-[9]: 'README'
-[10]: 'README'
-[11]: 'README'
-[12]: 'README'
-[13]: 'README'
-[14]: 'README'
-[15]: 'README'
-[16]: 'README'
-[17]: 'README'
-[18]: 'README'
-[19]: 'README'
-[20]: 'README'
-[21]: 'README'
-[22]: 'README'
-[23]: 'README'
-[24]: 'README'
-[25]: 'README'
-[26]: 'README'
-[27]: 'README'
-[28]: 'README'
-[29]: 'README'
-[30]: 'README'
+[6]: #
+[7]: #
+[8]: #
+[9]: #
+[10]: #
+[11]: #
+[12]: #
+[13]: #
+[14]: #
+[15]: #
+[16]: #
+[17]: #
+[18]: #
+[19]: #
+[20]: #
+[21]: #
+[22]: #
+[23]: #
+[24]: #
+[25]: #
+[26]: #
+[27]: #
+[28]: #
+[29]: #
+[30]: #
 
 ## Resource
 
