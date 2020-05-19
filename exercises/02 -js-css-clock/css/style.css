@@ -47,6 +47,41 @@ html {
   transition-timing-function: cubic-bezier(0, 2, 1, 1);
 }
 
+.hour-hand {
+  z-index: 1;
+  width: 25%;
+  left: 25%;
+}
+.min-hand {
+  z-index: 2;
+}
+.second-hand {
+  z-index: 3;
+  background: black;
+  height: 0.3rem;
+}
+
+.center {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  z-index: 4;
+  background: rgb(0, 0, 0);
+  position: absolute;
+  border: 1px solid rgb(0, 0, 0);
+  top: 48%;
+  left: 47%;
+}
+
 .no-transition {
   transition: none !important;
+}
+
+.digital {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 4rem;
+  color: aqua;
 }

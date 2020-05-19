@@ -1,6 +1,7 @@
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
+const digitalClock = document.querySelector('.digital');
 
 const calcDegree = (unit, fraction) => {
   return (unit / fraction) * 360 + 90;
@@ -18,21 +19,19 @@ const setDate = () => {
     secondHand.classList.remove('no-transition');
   }
 
-  // todo Minute Hand Glitch
   const minutes = now.getMinutes();
-  const minutesDeg = (calcDegree(minutes, 60) + (secondsDeg - 90)) / 60;
+  const minutesDeg = calcDegree(minutes, 60) + (seconds * 6) / 60;
   minuteHand.style.transform = `rotate(${minutesDeg}deg)`;
-  // if (minutesDeg === 9.9) {
-  //   minuteHand.classList.add('no-transition');
-  // } else if (minutesDeg === 4.1) {
-  //   minuteHand.classList.remove('no-transition');
-  // }
 
-  // todo Hour Hand Glitch
   const hours = now.getHours();
-  const hoursDeg = (calcDegree(hours, 12) + (minutesDeg - 90)) / 12;
+  const hoursDeg = calcDegree(hours, 12) + (minutes * 30) / 60;
   hourHand.style.transform = `rotate(${hoursDeg}deg)`;
-  // console.log(hoursDeg);
+
+  digitalClock.innerHTML = `${hours < 10 ? `0${hours}` : hours} : ${
+    minutes < 10 ? `0${minutes}` : minutes
+  } : ${seconds < 10 ? `0${seconds}` : seconds}`;
 };
 
-setInterval(setDate, 1000);
+setInterval(setDate, 500);
+
+setDate();
