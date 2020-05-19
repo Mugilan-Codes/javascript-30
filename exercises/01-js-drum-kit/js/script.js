@@ -6,19 +6,17 @@ const playSound = (e) => {
 
   if (!audio) return;
 
-  key.classList.add('playing');
-
   audio.currentTime = 0;
   audio.play();
+
+  key.classList.add('playing');
 };
 
-const removeTransition = (e) => {
-  if (e.propertyName !== 'transform') return;
-
-  e.target.classList.remove('playing');
-};
-
-const keys = document.querySelectorAll('.key');
-keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
+function endSound(e) {
+  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+  if (!key) return;
+  key.classList.remove('playing');
+}
 
 window.addEventListener('keydown', playSound);
+window.addEventListener('keyup', endSound);
