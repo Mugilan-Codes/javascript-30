@@ -49,10 +49,10 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 29  | [Countdown Timer][29]                               |       -        |
 | 30  | [Whack a Mole][30]                                  |       -        |
 
-[1]: exercises/01-js-drum-kit/README.md 'README'
-[2]: exercises/02-js-css-clock/README.md 'README'
-[3]: exercises/03-css-variables/README.md 'README'
-[4]: exercises/04-array-cardio-day-1/README.md 'README'
+[1]: exercises/01-js-drum-kit/'
+[2]: exercises/02-js-css-clock/'
+[3]: exercises/03-css-variables/'
+[4]: exercises/04-array-cardio-day-1/'
 [5]: #
 [6]: #
 [7]: #

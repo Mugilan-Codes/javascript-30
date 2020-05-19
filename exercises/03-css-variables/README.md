@@ -1,6 +1,6 @@
 # 03 - CSS Variables
 
-## <a href='../../README.md'>Main README.md</a>
+## <a href='../../'>Main Page</a>
 
 ## Updates Required:
 
