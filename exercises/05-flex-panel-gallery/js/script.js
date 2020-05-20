@@ -1,6 +1,6 @@
 const panels = document.querySelectorAll('.panel');
 
-// ! This Keyword can only be used in this type of function
+// ! 'this' Keyword can only be used in this type of function
 function toggleOpen() {
   this.classList.toggle('open');
 }

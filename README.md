@@ -23,7 +23,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 |  3  | [CSS Variables][3]                                  | 19th May, 2020 |
 |  4  | [Array Cardio 1][4]                                 | 19th May, 2020 |
 |  5  | [Flex Panel Gallery][5]                             | 20th May, 2020 |
-|  6  | [Type Ahead][6]                                     |       -        |
+|  6  | [Type Ahead][6]                                     | 20th May, 2020 |
 |  7  | [Array Cardio 2][7]                                 |       -        |
 |  8  | [Fun with HTML5 Canvas][8]                          |       -        |
 |  9  | [Dev Tools Domination][9]                           |       -        |
@@ -54,7 +54,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [3]: exercises/03-css-variables/
 [4]: exercises/04-array-cardio-day-1/
 [5]: exercises/05-flex-panel-gallery/
-[6]: #
+[6]: exercises/06-type-ahead/
 [7]: #
 [8]: #
 [9]: #
