@@ -24,7 +24,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 |  4  | [Array Cardio 1][4]                                 | 19th May, 2020 |
 |  5  | [Flex Panel Gallery][5]                             | 20th May, 2020 |
 |  6  | [Type Ahead][6]                                     | 20th May, 2020 |
-|  7  | [Array Cardio 2][7]                                 |       -        |
+|  7  | [Array Cardio 2][7]                                 | 21st May, 2020 |
 |  8  | [Fun with HTML5 Canvas][8]                          |       -        |
 |  9  | [Dev Tools Domination][9]                           |       -        |
 | 10  | [Hold Shift and Check Checkboxes][10]               |       -        |
@@ -55,7 +55,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [4]: exercises/04-array-cardio-day-1/
 [5]: exercises/05-flex-panel-gallery/
 [6]: exercises/06-type-ahead/
-[7]: #
+[7]: exercises/07-array-cardio-day-2/
 [8]: #
 [9]: #
 [10]: #
