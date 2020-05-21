@@ -18,14 +18,35 @@ const findMatches = (wordToMatch, cities) => {
   });
 };
 
+function numberWithCommas(x) {
+  return x.toString().split('.')[0].length > 3
+    ? x
+        .toString()
+        .substring(0, x.toString().split('.')[0].length - 3)
+        .replace(/\B(?=(\d{2})+(?!\d))/g, ',') +
+        ',' +
+        x.toString().substring(x.toString().split('.')[0].length - 3)
+    : x.toString();
+}
+
 function displayMatches() {
   const matchArray = findMatches(this.value, cities);
   const html = matchArray
     .map(({ city, state, population }) => {
+      const regex = new RegExp(this.value, 'gi');
+      const cityName = city.replace(
+        regex,
+        `<span class="hl">${this.value}</span>`
+      );
+      const stateName = state.replace(
+        regex,
+        `<span class="hl">${this.value}</span>`
+      );
+
       return `
         <li>
-          <span class="name">${city}, ${state}</span>
-          <span className="population">${population}</span>
+          <span class="name">${cityName}, ${stateName}</span>
+          <span class="population">${numberWithCommas(population)}</span>
         </li>
       `;
     })
