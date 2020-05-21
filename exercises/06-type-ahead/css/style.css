@@ -6,6 +6,9 @@
   width: 100%;
   min-height: 100vh;
   background: var(--primary-color);
+  background: url(../images/background.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -70,4 +73,15 @@ span.population {
 
 .hl {
   background: var(--primary-color);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+  background: black;
+  padding: 20px;
+  border-radius: 50%;
 }
