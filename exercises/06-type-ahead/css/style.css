@@ -1,7 +1,11 @@
+:root {
+  --primary-color: #e9ec13ee;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100vh;
-  background: #ffc600;
+  background: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -65,5 +69,5 @@ span.population {
 }
 
 .hl {
-  background: #ffc600;
+  background: var(--primary-color);
 }
