@@ -5,17 +5,19 @@ let lastChecked;
 function handleCheck(e) {
   let inBetween = false;
 
-  if (e.shiftKey && this.checked) {
-    checkboxes.forEach((checkbox) => {
-      if (checkbox === this || checkbox === lastChecked) {
-        inBetween = !inBetween;
-      }
+  if (lastChecked !== this && lastChecked !== undefined) {
+    if (e.shiftKey && this.checked) {
+      checkboxes.forEach((checkbox) => {
+        if (checkbox === lastChecked || checkbox === this) {
+          inBetween = !inBetween;
+        }
 
-      inBetween && (checkbox.checked = true);
-    });
+        inBetween && (checkbox.checked = true);
+      });
+    }
   }
 
-  lastChecked = this;
+  lastChecked = !this.checked ? undefined : this;
 }
 
 checkboxes.forEach((checkbox) =>
