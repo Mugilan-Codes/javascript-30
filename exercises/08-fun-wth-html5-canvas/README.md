@@ -7,6 +7,7 @@
 - Make Canvas Responsive
 - Give Options to Control the Styles
 - Add the Back to Home Button
+- Make it ooen in same screen instead of new screen
 
 ## Resources
 
