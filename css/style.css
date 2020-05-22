@@ -108,3 +108,18 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
 }
+
+@media (max-width: 555px) {
+  html,
+  body {
+    min-height: 100%;
+    min-width: 100%;
+  }
+  body {
+    flex-direction: column;
+  }
+  .left {
+    width: unset;
+    flex: 1;
+  }
+}
