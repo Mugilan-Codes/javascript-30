@@ -17,7 +17,7 @@ body {
 }
 
 .left {
-  width: 60%;
+  flex: 2;
 }
 
 .description {
@@ -33,10 +33,12 @@ body {
 }
 
 .description p a {
+  font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.884);
 }
 
 .description p a:hover {
+  font-size: 1.7rem;
   color: navy;
 }
 
@@ -66,10 +68,10 @@ body {
 }
 
 .right {
-  width: 38%;
-  height: calc(100% - 15px);
+  flex: 1;
   overflow-y: scroll;
-  margin: 10px 0 5px 2%;
+  /* margin: 10px 0; */
+  /* height: calc(100% - 10px); */
 }
 
 .right .links {
@@ -98,10 +100,10 @@ a {
   cursor: pointer;
 }
 
-a:hover {
+/* a:hover {
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 1);
-}
+} */
 
 .links .link:hover {
   color: rgba(5, 5, 5, 1);
@@ -121,7 +123,6 @@ a:hover {
   }
 
   .left {
-    width: unset;
     flex: 1;
   }
 
@@ -142,8 +143,8 @@ a:hover {
   }
 
   .right {
-    width: 100%;
-    margin: 0;
+    flex: 1;
+    margin: 10px 0 0 0;
   }
 
   .right .links {
@@ -152,5 +153,50 @@ a:hover {
 
   .links .link {
     width: 90%;
+    padding-left: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: normal;
+  }
+
+  .links .link:hover {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .left h1 {
+    margin: 25px 0;
+    font-size: 3rem;
+  }
+
+  .left h2 {
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+
+  .left h2 a {
+    font-size: 1.6rem;
+  }
+
+  .left h2 a:hover {
+    font-size: 1.7rem;
+  }
+
+  .description p {
+    font-size: 1.2rem;
+  }
+  .description p a {
+    font-size: 1.3rem;
+  }
+  .description p a:hover {
+    font-size: 1.4rem;
+  }
+
+  .right {
+    flex: 2;
   }
 }
