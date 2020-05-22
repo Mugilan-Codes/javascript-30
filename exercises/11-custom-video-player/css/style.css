@@ -19,14 +19,11 @@
 }
 
 /* This css is only applied when fullscreen is active. */
-.player:fullscreen {
-  max-width: none;
-  width: 100%;
-}
-
+.player:fullscreen,
 .player:-webkit-full-screen {
   max-width: none;
   width: 100%;
+  height: -webkit-fill-available;
 }
 
 .player__video {
