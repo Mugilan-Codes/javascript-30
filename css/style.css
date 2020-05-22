@@ -109,17 +109,48 @@ a:hover {
   font-weight: bold;
 }
 
-@media (max-width: 555px) {
+@media (max-width: 740px) {
   html,
   body {
     min-height: 100%;
     min-width: 100%;
   }
+
   body {
     flex-direction: column;
   }
+
   .left {
     width: unset;
     flex: 1;
+  }
+
+  .left h1 {
+    margin: 50px 0;
+    font-size: 4rem;
+  }
+
+  .left h2 {
+    font-size: 2rem;
+  }
+
+  .description p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .right {
+    width: 100%;
+    margin: 0;
+  }
+
+  .right .links {
+    align-items: center;
+  }
+
+  .links .link {
+    width: 90%;
   }
 }
