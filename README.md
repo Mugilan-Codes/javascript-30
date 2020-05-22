@@ -27,7 +27,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 |  7  | [Array Cardio 2][7]                                 | 21st May, 2020 |
 |  8  | [Fun with HTML5 Canvas][8]                          | 21st May, 2020 |
 |  9  | [Dev Tools Domination][9]                           | 22nd May, 2020 |
-| 10  | [Hold Shift and Check Checkboxes][10]               |       -        |
+| 10  | [Hold Shift and Check Checkboxes][10]               | 22nd May, 2020 |
 | 11  | [Custom Video Player][11]                           |       -        |
 | 12  | [Key Sequence Detection][12]                        |       -        |
 | 13  | [Slide in on Scroll][13]                            |       -        |
@@ -58,7 +58,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [7]: exercises/07-array-cardio-day-2/
 [8]: exercises/08-fun-wth-html5-canvas/
 [9]: exercises/09-dev-tools-domination/
-[10]: #
+[10]: exercises/10-hold-shift-and-check-checkboxes/
 [11]: #
 [12]: #
 [13]: #
