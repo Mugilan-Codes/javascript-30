@@ -1,7 +1,7 @@
-# 12 - Key Sequence Detection
+# 13 - Slide in on Scroll
 
 ## <a href='https://github.com/Mugilan-Codes/javascript-30'>Main Page</a>
 
-## Notes
+## TODO
 
-- Made a way to Check if the array is equal or not
+- Learn About [Window](https://developer.mozilla.org/en-US/docs/Web/API/Window) Web API
