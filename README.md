@@ -30,7 +30,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 10  | [Hold Shift and Check Checkboxes][10]               | 22nd May, 2020 |
 | 11  | [Custom Video Player][11]                           | 22nd May, 2020 |
 | 12  | [Key Sequence Detection][12]                        | 23rd May, 2020 |
-| 13  | [Slide in on Scroll][13]                            |       -        |
+| 13  | [Slide in on Scroll][13]                            | 24th May, 2020 |
 | 14  | [Javascript Reference vs Copying][14]               |       -        |
 | 15  | [Local Storage][15]                                 |       -        |
 | 16  | [Mouse Move Shadow][16]                             |       -        |
@@ -61,7 +61,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [10]: exercises/10-hold-shift-and-check-checkboxes/
 [11]: exercises/11-custom-video-player/
 [12]: exercises/12-key-sequence-detection/
-[13]: #
+[13]: exercises/13-slide-in-on-scroll/
 [14]: #
 [15]: #
 [16]: #
