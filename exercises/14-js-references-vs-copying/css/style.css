@@ -1,0 +1,15 @@
+.center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(../images/background.jpg) center center;
+  background-size: cover;
+}
+
+.center p {
+  font-size: 3rem;
+  color: rgba(253, 0, 0, 0.945);
+}
