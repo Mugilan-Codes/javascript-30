@@ -33,7 +33,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 13  | [Slide in on Scroll][13]                            | 24th May, 2020 |
 | 14  | [Javascript Reference vs Copying][14]               | 24th May, 2020 |
 | 15  | [Local Storage][15]                                 | 25th May, 2020 |
-| 16  | [Mouse Move Shadow][16]                             |       -        |
+| 16  | [Mouse Move Shadow][16]                             | 25th May, 2020 |
 | 17  | [Sort Without Articles][17]                         |       -        |
 | 18  | [Adding Up with Reduce][18]                         |       -        |
 | 19  | [Webscam Fun][19]                                   |       -        |
@@ -64,7 +64,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [13]: exercises/13-slide-in-on-scroll/
 [14]: exercises/14-js-references-vs-copying/
 [15]: exercises/15-local-storage/
-[16]: #
+[16]: exercises/16-mouse-move-shadow/
 [17]: #
 [18]: #
 [19]: #
