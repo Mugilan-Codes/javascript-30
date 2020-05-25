@@ -1,9 +1,11 @@
 .hero {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+  background: url(../images/background.jpg) center center;
+  background-size: cover;
 }
 
 h1 {
