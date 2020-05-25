@@ -1,7 +1,13 @@
+.back-home {
+  position: absolute;
+}
+
 .center {
   min-height: 100%;
   width: 100%;
   background: url(../images/background.jpg) center no-repeat;
+  padding: 25px 0;
+  background-attachment: fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -16,8 +22,8 @@ svg {
   background: rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 50%;
-  width: 200px;
-  margin-bottom: 50px;
+  width: 175px;
+  margin-bottom: 25px;
 }
 
 .wrapper {
@@ -73,4 +79,20 @@ h2 {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.25);
 }
