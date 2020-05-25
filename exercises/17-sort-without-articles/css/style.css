@@ -1,0 +1,34 @@
+.wrapper {
+  background: url(../images/background.jpg) center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bands {
+  list-style: inside square;
+  font-size: 20px;
+  background: white;
+  width: 500px;
+  max-width: 75%;
+  height: 75%;
+  overflow: scroll;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#bands li {
+  border-bottom: 1px solid #efefef;
+  padding: 20px;
+}
+
+#bands li:last-child {
+  border-bottom: 0;
+}
+
+a {
+  color: #ffc600;
+  text-decoration: none;
+}
