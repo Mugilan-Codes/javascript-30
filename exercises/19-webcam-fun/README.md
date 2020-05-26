@@ -2,4 +2,8 @@
 
 ## <a href='https://github.com/Mugilan-Codes/javascript-30'>Main Page</a>
 
-#### video.src = window.URL.createObjectURL(localMediaStream);
+## TODO
+
+- Make it Responsive
+- Give Control to Effects
+- Adjust CSS
