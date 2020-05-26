@@ -1,0 +1,14 @@
+{
+  "name": "webcam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, *.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'FirefoxDeveloperEdition'"
+  },
+  "author": "Mugilan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
