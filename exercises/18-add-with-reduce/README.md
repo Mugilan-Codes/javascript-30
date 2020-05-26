@@ -5,4 +5,4 @@
 ## TODO
 
 - Stylize the Page
-- Add Time
+- Add Time (get and set attributes)
