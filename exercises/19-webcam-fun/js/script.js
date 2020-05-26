@@ -27,7 +27,12 @@ function paintToCanvas() {
 
     let pixels = ctx.getImageData(0, 0, width, height);
 
-    pixels = redEffect(pixels);
+    // pixels = redEffect(pixels);
+
+    // pixels = rgbSplit(pixels);
+    // ctx.globalAlpha = 0.1;
+
+    pixels = greenScreen(pixels);
 
     ctx.putImageData(pixels, 0, 0);
   }, 16);
@@ -45,13 +50,50 @@ function takePhoto() {
   strip.insertBefore(link, strip.firstChild);
 }
 
-function redEffect(px) {
-  for (let i = 0; i < px.data.length; i += 4) {
-    px.data[i + 0] = px.data[i + 0] + 100; // r
-    px.data[i + 1] = px.data[i + 1] - 50; // g
-    px.data[i + 2] = px.data[i + 2] * 0.5; // b
+function redEffect(pixel) {
+  for (let i = 0; i < pixel.data.length; i += 4) {
+    pixel.data[i + 0] = pixel.data[i + 0] + 200; // r
+    pixel.data[i + 1] = pixel.data[i + 1] - 50; // g
+    pixel.data[i + 2] = pixel.data[i + 2] * 0.5; // b
   }
-  return px;
+  return pixel;
+}
+
+function rgbSplit(pixel) {
+  for (let i = 0; i < pixel.data.length; i += 4) {
+    pixel.data[i - 150] = pixel.data[i + 0]; // r
+    pixel.data[i + 100] = pixel.data[i + 1]; // g
+    pixel.data[i - 200] = pixel.data[i + 2]; // b
+  }
+  return pixel;
+}
+
+function greenScreen(pixel) {
+  const levels = {};
+
+  document
+    .querySelectorAll('.rgb input')
+    .forEach((input) => (levels[input.name] = input.value));
+
+  for (i = 0; i < pixel.data.length; i += 4) {
+    red = pixel.data[i + 0];
+    green = pixel.data[i + 1];
+    blue = pixel.data[i + 2];
+    alpha = pixel.data[i + 3];
+
+    if (
+      red >= levels.rmin &&
+      green >= levels.gmin &&
+      blue >= levels.bmin &&
+      red <= levels.rmax &&
+      green <= levels.gmax &&
+      blue <= levels.bmax
+    ) {
+      pixel.data[i + 3] = 0;
+    }
+  }
+
+  return pixel;
 }
 
 getVideo();
