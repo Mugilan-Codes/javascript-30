@@ -35,7 +35,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 15  | [Local Storage][15]                                 | 25th May, 2020 |
 | 16  | [Mouse Move Shadow][16]                             | 25th May, 2020 |
 | 17  | [Sort Without Articles][17]                         | 25th May, 2020 |
-| 18  | [Adding Up with Reduce][18]                         |       -        |
+| 18  | [Adding Up with Reduce][18]                         | 26th May, 2020 |
 | 19  | [Webscam Fun][19]                                   |       -        |
 | 20  | [Speech Detection][20]                              |       -        |
 | 21  | [Geolocation][21]                                   |       -        |
@@ -66,7 +66,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [15]: exercises/15-local-storage/
 [16]: exercises/16-mouse-move-shadow/
 [17]: exercises/17-sort-without-articles/
-[18]: #
+[18]: exercises/18-add-with-reduce/
 [19]: #
 [20]: #
 [21]: #
