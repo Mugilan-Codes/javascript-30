@@ -23,7 +23,7 @@
 }
 
 .videos li {
-  width: calc(100% / 6);
+  width: calc(100% / 5);
   border: 1px solid #000;
   flex-grow: 1;
   min-height: 120px;
