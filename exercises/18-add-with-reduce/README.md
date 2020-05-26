@@ -1,7 +1,8 @@
-# 17 - Sort Without Articles
+# 18 - Tally String Times with Reduce
 
 ## <a href='https://github.com/Mugilan-Codes/javascript-30'>Main Page</a>
 
 ## TODO
 
-- Clear, Ascending, & Descending Sort
+- Stylize the Page
+- Add Time

@@ -36,7 +36,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 16  | [Mouse Move Shadow][16]                             | 25th May, 2020 |
 | 17  | [Sort Without Articles][17]                         | 25th May, 2020 |
 | 18  | [Adding Up with Reduce][18]                         | 26th May, 2020 |
-| 19  | [Webscam Fun][19]                                   |       -        |
+| 19  | [Webcam Fun][19]                                    |       -        |
 | 20  | [Speech Detection][20]                              |       -        |
 | 21  | [Geolocation][21]                                   |       -        |
 | 22  | [Follow Along Link Highlighter][22]                 |       -        |
