@@ -6,13 +6,6 @@
   --border: 0%;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  background: #193549;
-}
-
 #image {
   padding: var(--spacing);
   background: var(--base);
@@ -20,7 +13,6 @@ body {
   width: var(--width);
   border-radius: var(--border);
   min-width: 300px;
-  max-width: 100%;
 }
 
 .hl {
@@ -28,10 +20,15 @@ body {
 }
 
 .wrapper {
-  height: 100%;
-  padding: 50px 100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
+  padding: 25px;
+  background: #193549;
   font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
   font-size: 2rem;
