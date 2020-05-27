@@ -2,6 +2,7 @@
 
 ## <a href='https://github.com/Mugilan-Codes/javascript-30'>Main Page</a>
 
-## Updates Required:
+## TODO
 
-Change to Flexbox to make it more responsive
+- Give Percentage instead of px for responsiveness
+- Mobile Layout
