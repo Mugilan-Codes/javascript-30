@@ -7,3 +7,4 @@
 - Make it Responsive
 - Give Control to Effects
 - Adjust CSS
+- Make it Use Global Resets instead of Local
