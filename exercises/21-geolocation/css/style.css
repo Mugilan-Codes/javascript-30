@@ -1,3 +1,27 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.back-home {
+  position: fixed;
+  text-decoration: none;
+  color: rgb(43, 172, 11);
+  background: rgba(180, 138, 103, 0.4);
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 99999;
+}
+
+.back-home:hover {
+  background: rgba(180, 138, 103, 1);
+  font-size: 2rem;
+  color: rgb(15, 250, 15);
+}
+
 .wrapper {
   margin: 0;
   font-family: sans-serif;
