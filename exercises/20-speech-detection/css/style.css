@@ -1,6 +1,7 @@
 .wrapper {
   min-height: 100%;
   width: 100%;
+  padding: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,22 +16,22 @@
   max-width: 500px;
   border-radius: 5px;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
-  padding: 1rem 2rem 1rem 5rem;
+  padding: 1rem 2rem 1rem 3rem;
   background: -webkit-gradient(
       linear,
       0 0,
       0 100%,
       from(#d9eaf3),
-      color-stop(4%, #fff)
+      color-stop(5%, #fff)
     )
-    0 4px;
-  background-size: 100% 3rem;
+    0 0.7rem;
+  background-size: 100% 2rem;
   position: relative;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 p {
-  margin: 0 0 3rem;
+  margin: 0 0 2rem;
 }
 
 .words:before {
