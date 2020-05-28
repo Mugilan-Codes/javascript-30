@@ -37,7 +37,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 17  | [Sort Without Articles][17]                         | 25th May, 2020 |
 | 18  | [Adding Up with Reduce][18]                         | 26th May, 2020 |
 | 19  | [Webcam Fun][19]                                    | 26th May, 2020 |
-| 20  | [Speech Detection][20]                              |       -        |
+| 20  | [Speech Detection][20]                              | 28th May, 2020 |
 | 21  | [Geolocation][21]                                   |       -        |
 | 22  | [Follow Along Link Highlighter][22]                 |       -        |
 | 23  | [Speech Synthesis][23]                              |       -        |
@@ -68,7 +68,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [17]: exercises/17-sort-without-articles/
 [18]: exercises/18-add-with-reduce/
 [19]: exercises/19-webcam-fun/
-[20]: #
+[20]: exercises/20-speech-detection/
 [21]: #
 [22]: #
 [23]: #
