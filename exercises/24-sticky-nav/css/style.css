@@ -1,8 +1,12 @@
 html {
   background: #eeeeee;
   font-family: 'helvetica neue';
-  /* font-size: 20px; */
+  font-size: 20px;
   font-weight: 200;
+}
+
+.back-home {
+  position: absolute;
 }
 
 .wrapper {
@@ -28,6 +32,11 @@ h1 {
   color: white;
   font-size: 7vw;
   text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -63,6 +72,10 @@ li.logo {
   font-size: 30px;
 }
 
+.fixed-nav li.logo {
+  max-width: 500px;
+}
+
 li.logo a {
   color: black;
 }
@@ -85,4 +98,8 @@ nav a {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
   transform: scale(0.98);
   transition: transform 0.5s;
+}
+
+.fixed-nav .site-wrap {
+  transform: scale(1);
 }
