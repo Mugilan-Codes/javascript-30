@@ -39,7 +39,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 19  | [Webcam Fun][19]                                    | 26th May, 2020 |
 | 20  | [Speech Detection][20]                              | 28th May, 2020 |
 | 21  | [Geolocation][21]                                   | 28th May, 2020 |
-| 22  | [Follow Along Link Highlighter][22]                 |       -        |
+| 22  | [Follow Along Link Highlighter][22]                 | 29th May, 2020 |
 | 23  | [Speech Synthesis][23]                              |       -        |
 | 24  | [Sticky Nav][24]                                    |       -        |
 | 25  | [Event Capture, Propagation, Bubbling and Once][25] |       -        |
@@ -70,7 +70,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [19]: exercises/19-webcam-fun/
 [20]: exercises/20-speech-detection/
 [21]: exercises/21-geolocation/
-[22]: #
+[22]: exercises/22-follow-along-links/
 [23]: #
 [24]: #
 [25]: #
