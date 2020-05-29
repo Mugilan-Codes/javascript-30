@@ -41,7 +41,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 21  | [Geolocation][21]                                   | 28th May, 2020 |
 | 22  | [Follow Along Link Highlighter][22]                 | 29th May, 2020 |
 | 23  | [Speech Synthesis][23]                              | 29th May, 2020 |
-| 24  | [Sticky Nav][24]                                    |       -        |
+| 24  | [Sticky Nav][24]                                    | 29th May, 2020 |
 | 25  | [Event Capture, Propagation, Bubbling and Once][25] |       -        |
 | 26  | [Stripe Follow Along Nav][26]                       |       -        |
 | 27  | [Click and Drag][27]                                |       -        |
@@ -72,7 +72,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [21]: exercises/21-geolocation/
 [22]: exercises/22-follow-along-links/
 [23]: exercises/23-speech-synthesis/
-[24]: #
+[24]: exercises/24-sticky-nav/
 [25]: #
 [26]: #
 [27]: #
