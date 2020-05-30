@@ -2,6 +2,8 @@
 
 # JavaScript30
 
+[![time tracker](https://wakatime.com/badge/github/Mugilan-Codes/javascript-30.svg)](https://wakatime.com/badge/github/Mugilan-Codes/javascript-30)
+
 This Course is given by the amazing [WesBos](https://github.com/wesbos 'Github Profile')
 
 Original Starter Files + Completed solutions for the JavaScript 30 Day Challenge can be found [here](https://github.com/wesbos/JavaScript30 'Github Repo')
