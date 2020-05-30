@@ -1,4 +1,15 @@
-div {
+html {
+  font-size: 10px;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
   width: 100%;
   padding: 100px;
 }
