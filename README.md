@@ -46,7 +46,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 24  | [Sticky Nav][24]                                    | 29th May, 2020 |
 | 25  | [Event Capture, Propagation, Bubbling and Once][25] | 30th May, 2020 |
 | 26  | [Stripe Follow Along Nav][26]                       | 31st May, 2020 |
-| 27  | [Click and Drag][27]                                |       -        |
+| 27  | [Click and Drag][27]                                | 31st May, 2020 |
 | 28  | [Video Speed Controller][28]                        |       -        |
 | 29  | [Countdown Timer][29]                               |       -        |
 | 30  | [Whack a Mole][30]                                  |       -        |
@@ -77,7 +77,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [24]: exercises/24-sticky-nav/
 [25]: exercises/25-event-capture/
 [26]: exercises/26-follow-along-nav/
-[27]: #
+[27]: exercises/27-click-drag-scroll/
 [28]: #
 [29]: #
 [30]: #
