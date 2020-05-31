@@ -45,7 +45,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 23  | [Speech Synthesis][23]                              | 29th May, 2020 |
 | 24  | [Sticky Nav][24]                                    | 29th May, 2020 |
 | 25  | [Event Capture, Propagation, Bubbling and Once][25] | 30th May, 2020 |
-| 26  | [Stripe Follow Along Nav][26]                       |       -        |
+| 26  | [Stripe Follow Along Nav][26]                       | 31st May, 2020 |
 | 27  | [Click and Drag][27]                                |       -        |
 | 28  | [Video Speed Controller][28]                        |       -        |
 | 29  | [Countdown Timer][29]                               |       -        |
@@ -76,7 +76,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [23]: exercises/23-speech-synthesis/
 [24]: exercises/24-sticky-nav/
 [25]: exercises/25-event-capture/
-[26]: #
+[26]: exercises/26-follow-along-nav/
 [27]: #
 [28]: #
 [29]: #
