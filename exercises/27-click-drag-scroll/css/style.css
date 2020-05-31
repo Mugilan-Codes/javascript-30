@@ -13,9 +13,10 @@ html {
 }
 
 .items {
-  height: 90%;
+  margin-top: auto;
+  height: 93%;
   width: 100%;
-  padding: 10rem;
+  padding: 5rem;
   border: 1px solid white;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -28,7 +29,7 @@ html {
   position: relative;
   font-size: 0;
   perspective: 50rem;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .items.active {
