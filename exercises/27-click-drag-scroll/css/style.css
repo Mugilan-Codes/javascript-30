@@ -28,7 +28,7 @@ html {
   position: relative;
   font-size: 0;
   perspective: 50rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .items.active {
@@ -76,6 +76,27 @@ html {
 }
 .item:nth-child(9n + 9) {
   background: rebeccapurple;
+}
+
+.item:nth-child(5n + 1) {
+  background: url(../images/test-01.jpeg) center center;
+  background-size: cover;
+}
+.item:nth-child(5n + 2) {
+  background: url(../images/test-02.jpeg) center center;
+  background-size: cover;
+}
+.item:nth-child(5n + 3) {
+  background: url(../images/test-03.jpeg) center center;
+  background-size: cover;
+}
+.item:nth-child(5n + 4) {
+  background: url(../images/test-04.jpg) center center;
+  background-size: cover;
+}
+.item:nth-child(5n + 5) {
+  background: url(../images/test-05.jpg) center center;
+  background-size: cover;
 }
 
 .item:nth-child(even) {
