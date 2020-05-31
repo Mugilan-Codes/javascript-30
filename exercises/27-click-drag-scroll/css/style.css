@@ -78,27 +78,6 @@ html {
   background: rebeccapurple;
 }
 
-.item:nth-child(5n + 1) {
-  background: url(../images/test-01.jpeg) center center;
-  background-size: cover;
-}
-.item:nth-child(5n + 2) {
-  background: url(../images/test-02.jpeg) center center;
-  background-size: cover;
-}
-.item:nth-child(5n + 3) {
-  background: url(../images/test-03.jpeg) center center;
-  background-size: cover;
-}
-.item:nth-child(5n + 4) {
-  background: url(../images/test-04.jpg) center center;
-  background-size: cover;
-}
-.item:nth-child(5n + 5) {
-  background: url(../images/test-05.jpg) center center;
-  background-size: cover;
-}
-
 .item:nth-child(even) {
   transform: scaleX(1.31) rotateY(40deg);
 }
