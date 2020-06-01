@@ -7,3 +7,4 @@
 - Modify Styles
 - Make it Responsive
 - Select from Multiple Videos
+- Online Videos instead of Offline
