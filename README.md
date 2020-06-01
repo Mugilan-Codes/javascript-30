@@ -18,38 +18,38 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 
 ## Tracking
 
-| Day | Challenge                                           |    Took On     |
-| :-: | :-------------------------------------------------- | :------------: |
-|  1  | [CSS Drum Kit][1]                                   | 18th May, 2020 |
-|  2  | [JS + CSS Clock][2]                                 | 19th May, 2020 |
-|  3  | [CSS Variables][3]                                  | 19th May, 2020 |
-|  4  | [Array Cardio 1][4]                                 | 19th May, 2020 |
-|  5  | [Flex Panel Gallery][5]                             | 20th May, 2020 |
-|  6  | [Type Ahead][6]                                     | 20th May, 2020 |
-|  7  | [Array Cardio 2][7]                                 | 21st May, 2020 |
-|  8  | [Fun with HTML5 Canvas][8]                          | 21st May, 2020 |
-|  9  | [Dev Tools Domination][9]                           | 22nd May, 2020 |
-| 10  | [Hold Shift and Check Checkboxes][10]               | 22nd May, 2020 |
-| 11  | [Custom Video Player][11]                           | 22nd May, 2020 |
-| 12  | [Key Sequence Detection][12]                        | 23rd May, 2020 |
-| 13  | [Slide in on Scroll][13]                            | 24th May, 2020 |
-| 14  | [Javascript Reference vs Copying][14]               | 24th May, 2020 |
-| 15  | [Local Storage][15]                                 | 25th May, 2020 |
-| 16  | [Mouse Move Shadow][16]                             | 25th May, 2020 |
-| 17  | [Sort Without Articles][17]                         | 25th May, 2020 |
-| 18  | [Adding Up with Reduce][18]                         | 26th May, 2020 |
-| 19  | [Webcam Fun][19]                                    | 26th May, 2020 |
-| 20  | [Speech Detection][20]                              | 28th May, 2020 |
-| 21  | [Geolocation][21]                                   | 28th May, 2020 |
-| 22  | [Follow Along Link Highlighter][22]                 | 29th May, 2020 |
-| 23  | [Speech Synthesis][23]                              | 29th May, 2020 |
-| 24  | [Sticky Nav][24]                                    | 29th May, 2020 |
-| 25  | [Event Capture, Propagation, Bubbling and Once][25] | 30th May, 2020 |
-| 26  | [Stripe Follow Along Nav][26]                       | 31st May, 2020 |
-| 27  | [Click and Drag][27]                                | 31st May, 2020 |
-| 28  | [Video Speed Controller][28]                        |       -        |
-| 29  | [Countdown Timer][29]                               |       -        |
-| 30  | [Whack a Mole][30]                                  |       -        |
+| Day | Challenge                                           |     Took On     |
+| :-: | :-------------------------------------------------- | :-------------: |
+|  1  | [CSS Drum Kit][1]                                   | 18th May, 2020  |
+|  2  | [JS + CSS Clock][2]                                 | 19th May, 2020  |
+|  3  | [CSS Variables][3]                                  | 19th May, 2020  |
+|  4  | [Array Cardio 1][4]                                 | 19th May, 2020  |
+|  5  | [Flex Panel Gallery][5]                             | 20th May, 2020  |
+|  6  | [Type Ahead][6]                                     | 20th May, 2020  |
+|  7  | [Array Cardio 2][7]                                 | 21st May, 2020  |
+|  8  | [Fun with HTML5 Canvas][8]                          | 21st May, 2020  |
+|  9  | [Dev Tools Domination][9]                           | 22nd May, 2020  |
+| 10  | [Hold Shift and Check Checkboxes][10]               | 22nd May, 2020  |
+| 11  | [Custom Video Player][11]                           | 22nd May, 2020  |
+| 12  | [Key Sequence Detection][12]                        | 23rd May, 2020  |
+| 13  | [Slide in on Scroll][13]                            | 24th May, 2020  |
+| 14  | [Javascript Reference vs Copying][14]               | 24th May, 2020  |
+| 15  | [Local Storage][15]                                 | 25th May, 2020  |
+| 16  | [Mouse Move Shadow][16]                             | 25th May, 2020  |
+| 17  | [Sort Without Articles][17]                         | 25th May, 2020  |
+| 18  | [Adding Up with Reduce][18]                         | 26th May, 2020  |
+| 19  | [Webcam Fun][19]                                    | 26th May, 2020  |
+| 20  | [Speech Detection][20]                              | 28th May, 2020  |
+| 21  | [Geolocation][21]                                   | 28th May, 2020  |
+| 22  | [Follow Along Link Highlighter][22]                 | 29th May, 2020  |
+| 23  | [Speech Synthesis][23]                              | 29th May, 2020  |
+| 24  | [Sticky Nav][24]                                    | 29th May, 2020  |
+| 25  | [Event Capture, Propagation, Bubbling and Once][25] | 30th May, 2020  |
+| 26  | [Stripe Follow Along Nav][26]                       | 31st May, 2020  |
+| 27  | [Click and Drag][27]                                | 31st May, 2020  |
+| 28  | [Video Speed Controller][28]                        | 01st June, 2020 |
+| 29  | [Countdown Timer][29]                               |        -        |
+| 30  | [Whack a Mole][30]                                  |        -        |
 
 [1]: exercises/01-js-drum-kit/
 [2]: exercises/02-js-css-clock/
@@ -78,7 +78,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [25]: exercises/25-event-capture/
 [26]: exercises/26-follow-along-nav/
 [27]: exercises/27-click-drag-scroll/
-[28]: #
+[28]: exercises/28-video-speed-controller/
 [29]: #
 [30]: #
 

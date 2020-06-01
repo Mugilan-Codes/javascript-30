@@ -1,0 +1,10 @@
+.wrapper {
+  height: 100%;
+  min-width: 850px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3c4d31 url(../images/background.jpg);
+  background-size: cover;
+}
