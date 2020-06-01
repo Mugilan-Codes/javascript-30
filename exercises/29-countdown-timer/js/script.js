@@ -1,8 +1,11 @@
 let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
 const endTimeDisplay = document.querySelector('.display__end-time');
+const buttons = document.querySelectorAll('.timer__button');
 
 const timer = (seconds) => {
+  clearInterval(countdown);
+
   const now = Date.now();
   const then = now + seconds * 1000;
   displayTimeLeft(seconds);
@@ -28,9 +31,14 @@ const displayTimeLeft = (seconds) => {
   const minutes = Math.floor(seconds / 60);
   seconds %= 60;
 
-  const display = `${hours < 10 ? `0${hours}` : hours}:${
-    minutes < 10 ? `0${minutes}` : minutes
-  }:${seconds < 10 ? `0${seconds}` : seconds}`;
+  const display =
+    hours < 1
+      ? `${minutes < 10 ? `0${minutes}` : minutes}:${
+          seconds < 10 ? `0${seconds}` : seconds
+        }`
+      : `${hours < 10 ? `0${hours}` : hours}:${
+          minutes < 10 ? `0${minutes}` : minutes
+        }:${seconds < 10 ? `0${seconds}` : seconds}`;
 
   timerDisplay.textContent = display;
   document.title = display;
@@ -49,3 +57,24 @@ const displayEndTime = (timestamp) => {
     adjustedHour < 10 ? `0${adjustedHour}` : adjustedHour
   }:${minute < 10 ? `0${minute}` : minute} ${timeOfDay}`;
 };
+
+const startTimer = (e) => {
+  //   const seconds = Number(e.target.dataset.time);
+  const seconds = parseInt(e.target.dataset.time);
+
+  timer(seconds);
+};
+
+buttons.forEach((btn) => btn.addEventListener('click', startTimer));
+
+//* Works only when there is a 'name' attibute
+document.customForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const mins = this.minutes.value;
+  console.log(mins);
+
+  timer(mins * 60);
+
+  this.reset();
+});
