@@ -15,7 +15,6 @@ html {
 }
 
 .timer {
-  border: 2px solid white;
   width: 100%;
   height: 100%;
   display: flex;
@@ -32,6 +31,7 @@ html {
 
 .timer__controls form {
   display: flex;
+  /* flex: 2; */
 }
 
 .timer__controls input {
@@ -39,8 +39,6 @@ html {
   border: 0;
   flex: 1;
 }
-
-/* test */
 
 .timer__button {
   background: none;
