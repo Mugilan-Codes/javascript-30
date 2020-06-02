@@ -5,3 +5,6 @@
 ## TODO
 
 - Add Styles
+- Refactor Code
+- Add Levels
+- Store Highscore in LocalStorage
