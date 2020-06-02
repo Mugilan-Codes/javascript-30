@@ -90,3 +90,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 1. [FavIcon](https://www.flaticon.com/)
 1. [Convert to ICO format](https://www.favicon.cc/)
 1. [Mother Effing HSL](https://mothereffinghsl.com/)
+
+## TODO
+
+- Log How many times website page has been visited
