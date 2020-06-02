@@ -1,0 +1,27 @@
+html {
+  font-size: 10px;
+}
+
+.wrapper {
+  font-family: 'Amatic SC', cursive;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffc600;
+}
+
+h1 {
+  font-size: 10rem;
+  /* line-height: 1; */
+  /* margin-bottom: 0; */
+}
+
+.score {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 3rem;
+  /* line-height: 1; */
+  border-radius: 1rem;
+}
