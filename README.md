@@ -49,7 +49,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 | 27  | [Click and Drag][27]                                | 31st May, 2020 |
 | 28  | [Video Speed Controller][28]                        | 1st June, 2020 |
 | 29  | [Countdown Timer][29]                               | 1st June, 2020 |
-| 30  | [Whack a Mole][30]                                  |       -        |
+| 30  | [Whack a Mole][30]                                  | 2nd June, 2020 |
 
 [1]: exercises/01-js-drum-kit/
 [2]: exercises/02-js-css-clock/
@@ -80,7 +80,7 @@ My Solutions for this Challenge is [here](https://github.com/Mugilan-Codes/javas
 [27]: exercises/27-click-drag-scroll/
 [28]: exercises/28-video-speed-controller/
 [29]: exercises/29-countdown-timer/
-[30]: #
+[30]: exercises/30-whack-a-mole/
 
 ## Resource
 
